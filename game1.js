@@ -12,7 +12,7 @@
          
             if(block2.addEventListener("click",function(){
                  
-                if((j+i)%6!=0 && (i+j)%5!=0){
+                if((j+i)%8!=0 && (i+j)%5!=0){
                     block2.style.background="green";
                     c++;
                     document.getElementById("score").innerHTML = "<span style=\"color:white; text:20px;\">" + c + "</span>";
