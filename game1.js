@@ -12,11 +12,11 @@
          
             if(block2.addEventListener("click",function(){
                  
-                if((j+i)%8!=0 && (i+j)%5!=0){
+                if((j+i)%5!=0 && (i+j)%11!=0){
                     block2.style.background="green";
                     c++;
                     document.getElementById("score").innerHTML = "<span style=\"color:white; text:20px;\">" + c + "</span>";
-                    if(50==c){
+                    if(35==c){
                     window.alert("You won match");
                     document.location.reload();
                     }
